@@ -1,0 +1,20 @@
+{
+  "name": "ai-imagegenerator",
+  "version": "1.0.0",
+  "description": "this project generate image with the help of AI",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev":"nodemon index.js"
+  },
+  "author": "priya singh",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "openai": "^3.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.21"
+  }
+}
